@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from 'axios';
-import ProfileSideBar from "../Components/ProfileSideBar";
+import ProfileSideBar from "../Components/ProfileSidebar";
 import RepoSection from "../Components/RepoSection";
 import GITHUB_INSTANCE from "../Services/api";
 import BgImg1 from '../assets/Images/Black bgImg.jpg'
